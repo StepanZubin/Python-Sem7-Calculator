@@ -15,7 +15,7 @@ def complex_number() -> complex:
     Метод: Получение комплексного числа от пользователя.
     Возвращаемое значение: Комплексное число в формате a+bj (<class 'complex'>)
     '''
-    return ch.check_input_complex('введите комплексное число в формате a + bj: ')
+    return ch.check_input_complex('введите комплексное число в формате a+bj: ')
 
 
 def operation() -> str:
